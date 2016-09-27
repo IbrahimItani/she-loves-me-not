@@ -1,0 +1,371 @@
+body {
+  
+  overflow: hidden;
+  margin: 0;
+  padding-right: 0;
+  height: 98%;
+  background: black;
+}
+
+body::-webkit-scrollbar { 
+    display: none; 
+}
+
+#left {
+    font-family: "Times New Roman", Times, serif; font-size: 24px;
+    background: black;
+    float: left;
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+}
+#right {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;    
+  background: black;
+    float: left;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#right2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;    
+  background: black;
+    float: left;
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#right3 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;    
+  background: black;
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#right4 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;    
+  background: black;
+  float: left;
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.parallax::-webkit-scrollbar { width: 0 !important }
+.parallax2::-webkit-scrollbar { width: 0 !important }
+.parallax3::-webkit-scrollbar { width: 0 !important }
+.parallax4::-webkit-scrollbar { width: 0 !important }
+.parallax5::-webkit-scrollbar { width: 0 !important }
+
+.parallax {
+  height: 100vh;
+  padding-left: 25%;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-perspective: 2px;
+  perspective: 2px;
+}
+
+.parallax2 {
+  height: 40vh;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-perspective: 1px;
+  perspective: 1px;
+}
+
+.parallax3 {
+  height: 65vh;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-perspective: 1px;
+  perspective: 1px;
+}
+
+.parallax4 {
+  height: 60vh;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-perspective: 1px;
+  perspective: 1px;
+}
+
+.parallax5 {
+  height: 70vh;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-perspective: 1px;
+  perspective: 1px;
+}
+
+.parallax-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 140vh;
+  padding-bottom: 140vh;
+  padding-left: 20vh;
+  white-space: nowrap;
+}
+
+.parallax-layer2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 100vh;
+  padding-bottom: 100vh;
+  padding-right: 40vh;
+  white-space: nowrap;
+}
+
+.parallax-layer3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 44vh;
+  padding-bottom: 80vh;
+  padding-right: 20vh;
+  white-space: nowrap;
+}
+
+.parallax-layer4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 55vh;
+  padding-bottom: 70vh;
+  padding-right: 20vh;
+  white-space: nowrap;
+}
+
+.parallax-layer5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 28vh;
+  padding-bottom: 140vh;
+  padding-right: 10vh;
+  white-space: nowrap;
+}
+
+.parallax-layer.one {
+  font-size: 25px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.parallax-layer.two {
+  font-size: 24px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-.25px);
+  transform: translateZ(-.25px);
+
+}
+
+.parallax-layer.three {
+  font-size: 23px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-.5px);
+  transform: translateZ(-.5px);
+}
+
+.parallax-layer.four {
+  font-size: 22px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-.75px);
+  transform: translateZ(-.75px);
+}
+
+.parallax-layer.five {
+  font-size: 21px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-1px);
+  transform: translateZ(-1px);
+}
+
+.parallax-layer.six {
+  font-size: 20px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-1.25px);
+  transform: translateZ(-1.25px);
+}
+
+.parallax-layer.seven {
+  font-size: 19px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-1.5px);
+  transform: translateZ(-1.5px);
+}
+
+.parallax-layer.eight {
+  font-size: 18px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-1.75px);
+  transform: translateZ(-1.75px);
+}
+
+.parallax-layer.nine {
+  font-size: 17px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-2px);
+  transform: translateZ(-2px);
+}
+
+.parallax-layer.ten {
+  font-size: 16px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-2.25px);
+  transform: translateZ(-2.25px);
+}
+
+.parallax-layer2.one {
+  font-size: 25px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.parallax-layer2.two {
+  font-size: 24px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-.25px);
+  transform: translateZ(-.25px);
+
+}
+
+.parallax-layer2.three {
+  font-size: 23px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-.5px);
+  transform: translateZ(-.5px);
+}
+
+.parallax-layer2.four {
+  font-size: 22px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-.75px);
+  transform: translateZ(-.75px);
+}
+
+.parallax-layer2.five {
+  font-size: 21px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-1px);
+  transform: translateZ(-1px);
+}
+
+.parallax-layer2.six {
+  font-size: 20px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-1.25px);
+  transform: translateZ(-1.25px);
+}
+
+.parallax-layer2.seven {
+  font-size: 19px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-1.5px);
+  transform: translateZ(-1.5px);
+}
+
+.parallax-layer2.eight {
+  font-size: 18px;
+  color: #D9D9D9;
+  -webkit-transform: translateZ(-1.75px);
+  transform: translateZ(-1.75px);
+}
+
+.parallax-layer2.nine {
+  font-size: 17px;
+  color: #D3D3D3;
+  -webkit-transform: translateZ(-2px);
+  transform: translateZ(-2px);
+}
+
+.parallax-layer2.ten {
+  font-size: 16px;
+  color: #D4D4D4;
+  -webkit-transform: translateZ(-2.25px);
+  transform: translateZ(-2.25px);
+}
+
+.parallax-layer3.one {
+  margin-left: 34%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.parallax-layer3.two {
+  margin-left: 28%;
+  -webkit-transform: translateZ(-.5px);
+  transform: translateZ(-.25px);
+
+}
+
+.parallax-layer3.three {
+  margin-left: 18%;
+  -webkit-transform: translateZ(-1px);
+  transform: translateZ(-1px);
+}
+
+.parallax-layer4.one {
+  font-size: 25px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.parallax-layer4.two {
+  font-size: 25px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-0.6px);
+  transform: translateZ(-0.6px);
+}
+
+.parallax-layer4.three {
+  font-size: 25px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-1.2px);
+  transform: translateZ(-1.2px);
+}
+
+.parallax-layer5.one {
+  font-family: 'Lucida Typewriter';
+  line-height: 33px;
+  font-size: 18px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(0px);
+  transform: translateZ(0px);
+}
+
+.parallax-layer5.two {
+  font-family: 'Lucida Typewriter';
+  font-size: 18px;
+  line-height: 22px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-0.6px);
+  transform: translateZ(-0.6px);
+}
+
+.parallax-layer5.three {
+  font-family: 'Lucida Typewriter';
+  font-size: 18px;
+  line-height: 11px;
+  color: #faf9f7;
+  -webkit-transform: translateZ(-1px);
+  transform: translateZ(-1px);
+}
